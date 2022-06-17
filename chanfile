@@ -1,0 +1,18 @@
+#Dynamic Channel File for Apocalypbot (eggdrop v1.9.0) -- written Fri Jun 17 17:04:15 2022
+
+channel add #huesos_secos { chanmode +tn idle-kick 0 stopnethack-mode 0 revenge-mode 0 need-op {} need-invite {} need-key {} need-unban {} need-limit {} flood-chan 5:4 flood-ctcp 3:60 flood-join 5:10 flood-kick 0:0 flood-deop 0:0 flood-nick 0:0 aop-delay 0:0 ban-type 3 ban-time 0 exempt-time 0 invite-time 0 -enforcebans +dynamicbans +userbans -autoop -autohalfop -bitch +greet +protectops -protecthalfops -protectfriends +dontkickops +statuslog -revenge -revengebot -autovoice -secret +shared +cycle -seen -inactive +dynamicexempts +userexempts +dynamicinvites +userinvites -nodesynch -static }
+channel set #huesos_secos -udef-flag-eguard-helper
+channel set #huesos_secos -udef-flag-eguard-akick
+channel set #huesos_secos -udef-flag-eguard-spam
+channel set #huesos_secos -udef-flag-eguard-cervantes
+channel set #huesos_secos -udef-flag-eguard-cap
+channel set #huesos_secos -udef-flag-eguard-reban
+channel set #huesos_secos -udef-flag-eguard-colors
+channel set #huesos_secos -udef-flag-eguard-banrotate
+channel set #huesos_secos -udef-flag-eguard-troll
+channel set #huesos_secos -udef-flag-eguard-repeat
+channel set #huesos_secos -udef-flag-eguard-maxclone
+channel set #huesos_secos -udef-flag-eguard-flood-msg
+channel set #huesos_secos -udef-flag-eguard-flood-ctcp
+channel set #huesos_secos -udef-flag-eguard-flood-nick
+channel set #huesos_secos -udef-flag-eguard-flood-join
